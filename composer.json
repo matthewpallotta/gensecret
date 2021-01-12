@@ -1,0 +1,15 @@
+{
+  "name": "mattpallotta/gensecret",
+  "description": "generate a hash for /etc/shadow",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Matthew Pallotta",
+      "email": "matt@advanced.im"
+    }
+  ],
+  "require": {
+    "advancedideasmechanics/generate-passwd": ">=0.0.1"
+  }
+}
