@@ -15,6 +15,7 @@ HELP;
     $genSecret = new GenerateSecretService();
 
     $secret = $argv[1];
+    echo $secret;
     $salt = isset($argv[2]) && (int)$argv[2] > 1 ? $argv[2] : 64;
     echo "\n" . $genSecret->getSecret($argv[1], $salt) . "\n";
 }
